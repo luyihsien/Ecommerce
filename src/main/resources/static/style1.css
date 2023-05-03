@@ -1,0 +1,39 @@
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+}
+
+header {
+background-color: #f5f5f5;
+padding: 20px;
+}
+
+h1 {
+margin: 0;
+}
+
+main {
+padding: 20px;
+}
+
+.products {
+text-align: center;
+}
+
+.product-grid {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 20px;
+}
+
+footer {
+background-color: #f5f5f5;
+padding: 20px;
+text-align: center;
+}
+.product-image {
+    width: 300px; /* Adjust the width to your desired size */
+    height: auto; /* Keep the aspect ratio intact */
+}
